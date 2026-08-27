@@ -1024,24 +1024,6 @@ AIC(chm_bimodal_hab_chamois, chm_trail_hab_chamois, chm_sheep_hab_chamois,
 summary(fitchm_trail_habint_chamois) 
 #fit_chm is reports stronger, chamois do use habitats differently across the day.
 
-#Conclusion: Chamois diel activity was strongly bimodal and varied substantially
-#by habitat (ΔAIC = 18.2 for adding habitat to the bimodal model), with higher
-#activity in rocky terrain (β = 2.04, p = 0.006) and lower activity in dwarf
-#pine (β = −2.20, p = 0.020), mirroring the spatial results. Controlling for
-#habitat, trail density within 500m improved the model (ΔAIC = 3.28) through a
-#change in activity timing ((((β = 0.29, p = 0.003) rather than a reduction in
-#overall activity (p = 0.155))))?, indicating that chamois shift when they are
-#active at trail dense sites. Sheep detection rate did not improve the model
-#(ΔAIC = +3.07). Chamois were therefore the only species to show both a spatial
-#and a temporal response to recreational disturbance, avoiding trail dense areas
-#overall while also altering their activity timing where trails were present.   ASK ABOUT ELEVATION
-
-#-spatial:rock specialists, strongest trail avoidacne (β = −0.42, p < 0.001, ΔAIC 18.5)
-#-temporal: no sheep affect, shifts activity timing on trails - significant harmon interaction? 
-#main effect non-significant (p = 0.155), one interaction significant (trail_500_sc:sin(timeRadian), 
-#p = 0.003)
-
-
 ##ROE DEER SPATIAL
 #rocks sites excluded (0 detections across 14 sites), habitat as Forest vs Non-forest
 # site_covs_roe <- site_covs %>%
